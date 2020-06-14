@@ -1,0 +1,22 @@
+//---Tamanhos--//
+navbarLogin -> 1351  width  x 82 height
+logo ->  170 width x 55 height
+containerCriarConta&MapDoMundo ->    980 width x 603.5 height
+
+BotaoCadraste -> 194 width x 39 height
+
+footer -> 1351  width  x 136 height
+
+footerIdiomas -> 980  width  x 28 height
+footerIdiomasConfigurações -> 980  width  x 57 height
+
+
+//---Cores--//
+navbarLogin ->
+ background-color: #3b5998;
+ background-image: linear-gradient(#4e69a2, #3b5998 50%);
+ border-bottom: 1px solid #133783;
+   <- navbarLogin 
+
+
+header -> background-color: #e9ebee;  <- header

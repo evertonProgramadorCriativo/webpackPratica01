@@ -1,2 +1,2 @@
-import "./convertendoWebpack"
+import "convertendoWebpack"
 

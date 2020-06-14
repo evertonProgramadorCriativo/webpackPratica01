@@ -6,17 +6,26 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "startWebpack": "webpack-dev-server",
-    "buildWebpack": "cross-env NODE_ENV=production webpack"
+    "buildWebpack": "cross-env TS_NODE_PROJECT=production\"tsconfig-for-webpack-config.json\" webpack"
   },
   "author": "Everton Eduardo",
   "license": "ISC",
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-typescript": "^7.10.1",
+    "@types/node": "^14.0.13",
+    "@types/webpack": "^4.41.17",
+    "@babel/core": "^7.0.0",
+    "@types/webpack-dev-server": "^3.11.0",
     "cross-env": "^7.0.2",
     "css-loader": "3.5.3",
     "file-loader": "^6.0.0",
     "mini-css-extract-plugin": "0.9.0",
     "node-sass": "^4.14.1",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "path": "^0.12.7",
     "sass-loader": "^8.0.2",
     "style-loader": "1.2.1",
     "ts-loader": "^7.0.5",
